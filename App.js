@@ -34,7 +34,7 @@ export default function App() {
 
         <Stack.Screen
           name="Add"
-          options={{ presentation: "modal", title: "Add Todo" }} // 👈 Modal-stil här
+          options={{ presentation: "modal", title: "Add Todo" }}
         >
           {(props) => (
             <AddScreen
